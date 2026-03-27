@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisnis Masa Depan - Peluang Kebebasan Finansial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">NAMA_BISNIS</h1>
+            <ul class="hidden md:flex space-x-6 text-gray-600 font-medium">
+                <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+                <li><a href="#sistem" class="hover:text-blue-600">Sistem</a></li>
+                <li><a href="#produk" class="hover:text-blue-600">Produk</a></li>
+                <li><a href="#daftar" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Gabung Sekarang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Wujudkan Impianmu Bersama Kami</h2>
+            <p class="text-xl mb-8 opacity-90">Sistem cerdas, produk berkualitas, dan peluang penghasilan tanpa batas.</p>
+            <a href="#daftar" class="bg-yellow-400 text-blue-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg hover:bg-yellow-300 transition">Mulai Sekarang</a>
+        </div>
+    </header>
+
+    <section id="sistem" class="py-16 container mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold mb-12">Mengapa Memilih Kami?</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div class="text-4xl mb-4">💰</div>
+                <h4 class="text-xl font-bold mb-2">Bonus Melimpah</h4>
+                <p class="text-gray-600">Nikmati bonus referal, bonus pasangan, dan reward menarik lainnya.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div class="text-4xl mb-4">🚀</div>
+                <h4 class="text-xl font-bold mb-2">Sistem Automasi</h4>
+                <p class="text-gray-600">Dashboard member yang mudah digunakan untuk memantau jaringan secara real-time.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div class="text-4xl mb-4">🎓</div>
+                <h4 class="text-xl font-bold mb-2">Training Eksklusif</h4>
+                <p class="text-gray-600">Bimbingan intensif dari para leader sukses untuk membantu Anda berkembang.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="produk" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-12">Produk Unggulan Kami</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow">
+                    <div class="h-48 bg-gray-300 flex items-center justify-center text-gray-500">Foto Produk</div>
+                    <div class="p-4">
+                        <h5 class="font-bold">Nama Produk A</h5>
+                        <p class="text-sm text-gray-500">Manfaat luar biasa untuk kesehatan Anda.</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <footer id="daftar" class="py-12 bg-gray-900 text-white text-center">
+        <div class="container mx-auto px-4">
+            <h3 class="text-2xl font-bold mb-4">Siap Mengubah Hidup?</h3>
+            <p class="mb-8 text-gray-400">Daftarkan dirimu sekarang dan jadilah bagian dari komunitas sukses kami.</p>
+            <form class="max-w-md mx-auto space-y-4">
+                <input type="text" placeholder="Nama Lengkap" class="w-full p-3 rounded bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-blue-500">
+                <input type="email" placeholder="Email Aktif" class="w-full p-3 rounded bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-blue-500">
+                <button type="submit" class="w-full bg-blue-600 py-3 rounded font-bold hover:bg-blue-700">Daftar Sekarang</button>
+            </form>
+            <p class="mt-12 text-gray-500 text-sm">&copy; 2026 NamaBisnisMLM. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
